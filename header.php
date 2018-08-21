@@ -25,21 +25,14 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'whc-agency' ); ?></a>
 
-	<header id="masthead" style="padding:10vw;" class="bg-success text-left site-header">
+	<header id="masthead" style="padding:10vw; background-image:url('https://source.unsplash.com/daily');" class="text-left site-header">
 		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class=" site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				
-			<?php endif; ?>
+			
+		<h1>We Are Very Capable of Digital Agency</h1>	
+
+
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, doloremque quod quia illum vitae placeat.</p>
-			<button>button</button>
+			<button style="padding:25 25px; background-color:black;color:white; border:none; border-radius:none;">click</button>
 		</div><!-- .site-branding -->
 		
 		
